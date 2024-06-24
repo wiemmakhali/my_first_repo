@@ -1,0 +1,9 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    background-image: url('assets/images/bg.jpg');
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout l'arrière-plan */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    /* Autres propriétés CSS pour positionner l'image si nécessaire */
+  }
+  

@@ -1,0 +1,16 @@
+<section>
+  <div class="container">
+    <h2>Category cake</h2>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let item of items">
+        <div class="card">
+          <img [src]="item.imgSrc" alt="{{item.title}}" class="card-img-top">
+          <div class="card-body text-center">
+            <h5 class="card-title">{{item.title}}</h5>
+            <a href="#" class="btn btn-primary">View Products</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
